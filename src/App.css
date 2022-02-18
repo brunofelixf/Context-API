@@ -9,3 +9,12 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+button {
+  background-color: chartreuse;
+  color: #282c34;
+  height: 30px;
+  width: 120px;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+}

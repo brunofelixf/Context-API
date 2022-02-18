@@ -8,7 +8,8 @@ export default function Mirror() {
 
   return (
     <div className="count">
-      <p>Count: {count}</p>
+      <p>Count: </p>
+      {count}
     </div>
   )
 }
