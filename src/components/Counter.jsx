@@ -1,8 +1,11 @@
 import React from 'react';
-import { useState } from 'react';
 
-const Counter = () => {
-  const [count, setCount] = useState(0)
+import { useCount } from '../context/Count';
+
+export default function Counter(){
+  
+  const {count, setCount} = useCount();
+  
   return ( 
     <>
     <div className="count">
@@ -14,5 +17,3 @@ const Counter = () => {
     </>
    );
 }
- 
-export default Counter;
